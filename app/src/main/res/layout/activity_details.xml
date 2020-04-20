@@ -128,7 +128,7 @@
                 android:fontFamily="sans-serif-light"
                 android:lineSpacingMultiplier="1.2"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                android:textColor="@android:color/white" />
+                android:textColor="@color/colorPrimary" />
 
         </LinearLayout>
 
