@@ -29,14 +29,5 @@ class Movie : Serializable {
     @Expose
     var backdropsUrl: List<String>? = null
 
-    @SerializedName("id")
-    @Expose
-    var id: String? = null
 
-
-
-
-    companion object {
-        private const val serialVersionUID = -1471415534645714332L
-    }
 }

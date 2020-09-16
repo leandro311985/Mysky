@@ -1,4 +1,4 @@
-package com.example.mysky.view
+package com.example.mysky.uiDetails
 
 import android.os.Bundle
 import android.widget.TextView
@@ -28,14 +28,12 @@ class DetailsActivity : AppCompatActivity() {
         movie = intent.getSerializableExtra("movie") as Movie
 
         val rand = Random()
-        // Escolhe backdrops aleatoriamente entre as 2 disponíveis
         val randomNum = rand.nextInt(2)
         Picasso.get().load(movie?.backdropsUrl?.get(randomNum)).into(movie_poster)
         movie_name?.text = movie?.title
         movie_title?.text = movie?.title
         movie_description?.text = movie?.overview
         movie_duration?.text = getString(R.string.duration, movie?.duration)
-        release_year?.text = getString(R.string.release_year, movie?.releaseYear)
         textViewMovieYear?.text = movie?.releaseYear
     }
 
