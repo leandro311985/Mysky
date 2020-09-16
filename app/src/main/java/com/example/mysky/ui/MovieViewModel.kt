@@ -1,4 +1,4 @@
-package com.example.mysky.uiMain
+package com.example.mysky.ui
 
 import androidx.lifecycle.*
 import com.example.mysky.utils.NetworkHelper

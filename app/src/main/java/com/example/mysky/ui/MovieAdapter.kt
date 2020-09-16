@@ -1,4 +1,4 @@
-package com.example.mysky.uiMain
+package com.example.mysky.ui
 
 import android.content.Context
 import android.content.Intent
@@ -8,7 +8,7 @@ import android.view.ViewGroup
 import android.widget.BaseAdapter
 import com.example.mysky.data.Movie
 import com.example.mysky.R
-import com.example.mysky.uiDetails.DetailsActivity
+import com.example.mysky.ui.details.DetailsActivity
 import com.squareup.picasso.Picasso
 import kotlinx.android.synthetic.main.item_view_recicler.view.*
 

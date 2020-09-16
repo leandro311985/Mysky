@@ -1,4 +1,4 @@
-package com.example.mysky.uiMain
+package com.example.mysky.ui
 
 import android.os.Bundle
 import android.view.View
@@ -41,7 +41,6 @@ class MainActivity : AppCompatActivity() {
 
                 }
                 Status.LOADING -> {
-                    Toast.makeText(this, "Loading", Toast.LENGTH_LONG).show()
                     progressBar?.visibility = View.VISIBLE
 
                 }
@@ -57,7 +56,6 @@ class MainActivity : AppCompatActivity() {
 
     private fun renderList(movie: List<Movie>) {
         adapter = MovieAdapter(this@MainActivity, movie)
-        adapter?.notifyDataSetChanged()
         gvMovies.adapter = adapter
     }
 

@@ -1,4 +1,4 @@
-package com.example.mysky.uiDetails
+package com.example.mysky.ui.details
 
 import android.os.Bundle
 import android.widget.TextView

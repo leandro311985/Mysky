@@ -7,7 +7,7 @@ import com.example.mysky.Api.MovieAPIService
 import com.example.mysky.BuildConfig
 import com.example.mysky.data.ApiHelperImpl
 import com.example.mysky.repository.MoviesRepository
-import com.example.mysky.uiMain.MovieViewModel
+import com.example.mysky.ui.MovieViewModel
 import com.example.mysky.utils.NetworkHelper
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
